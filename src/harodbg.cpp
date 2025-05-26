@@ -4,17 +4,15 @@
 #include<sys/personality.h>
 #include<unistd.h>
 #include<sstream>
-#include<fstream>
 #include<iostream>
-#include<iomanip>
 
 #include<sys/types.h>
 #include<sys/stat.h>
 #include<fcntl.h>
 
-#include "linenoise.h"
-
-#include "/home/ubuntu/harogdb/include/debugger.hpp"
+//절대 경로 쓰면 안되는데 빨간줄 미칠거같아서 일단 이렇게함,, ㅠ
+#include "/home/haro001/harodbg/ext/linenoise/linenoise.h"
+#include "/home/haro001/harodbg/include/debugger.hpp"
 
 using namespace harodbg;
 
